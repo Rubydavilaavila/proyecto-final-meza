@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica Neue;
+    font-weight: lighter;
+}
+body{
+   
+  font-family:'Opens Sans',helvetica;  
+  height:100%;
+  width:100%;
+  margin: 0px;
+  
+}
+
+header{
+    position: fixed;
+    top:0;
+    left: 0px;
+    width: 100px;
+    height: 100%;
+    background: white;
+    
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border-right: 2px solid black;
+
+}
+.logo1{
+    transform: rotate(270deg);
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -660px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Praise',cursive;
+}
+.carrito{
+    border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        float: right;
+        margin-right: 50px;
+        margin-top: 50px;
+        width: 50px;
+        height: 50px;
+}
+nav ul{
+    margin-top: 150px;
+    list-style-type: none;
+    display: block;
+   
+
+    
+  }
+ 
+  ul a{
+    
+    color:black;
+    font-family: 'Belleza', sans-serif;
+    padding: 0px;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+      width: 50px;
+      height: 120px;
+      margin-left: 0px;
+      transform: rotate(270deg);
+      margin-top: 0px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li a:hover{
+       margin-left: -30px;
+       border-bottom: 2px solid black;
+        }
+    .cuerpo{
+        background-color: rgb(255, 255, 255);
+        float: right;
+        width: 1900px;
+        height: 961px;
+   
+    }
+    .contactame{
+        font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    width: 160px;
+    height: 50px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-bottom: 2px solid black;
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+    .contactame:hover{
+        
+        
+    }
+    .contactame a{
+        position: absolute;
+       
+    }
+    .part1{
+        background: rgba(255, 255, 255, 0);
+        float: right;
+        width: 1900px;
+        height: 861px; 
+    }
+    .part1 img{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 1200px;
+        float: left;
+    }
+    h1{
+        position: absolute;
+        font-family: 'Inria Serif', serif;
+        color: black;
+        font-size: 80px;
+        margin-left: 250px;
+        margin-top: 200px;
+        float: left;
+    }
+    
+    h2{
+        position: absolute;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: black;
+        font-size: 30px;
+        margin-left: 250px;
+        margin-top: 450px;
+        float: left;
+        width: 700px;
+    }
+    .part2{
+        background: rgba(255, 255, 255, 0);
+        float: right;
+        width: 1900px;
+        height: 1061px; 
+    }
+h3{
+    position: absolute;
+    font-family: 'Inria Serif', serif;
+    color: black;
+    font-size: 80px;
+    margin-left: 750px;
+    margin-top: 60px;
+    float: left;
+}
+    
+ /*compras mujer*/
+.mujer{
+    margin-top: 60px;
+    width: 1800px;
+    height: 500px;
+    float: right;
+    
+
+}
+ section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+ 
+
+      .estilo-c{
+        font-family: sans-serif;
+        width: 20%;
+        margin-right: -100px;
+      }
+      .estilo-c .img-container{
+        overflow: hidden;
+        height: 450px;
+        position: relative;
+        border-radius: 15px;
+      }
+      .estilo-c .img-container img{
+        width: 105%;
+        position: absolute;
+        top: -30%;
+        transition: all 0.5s;
+      }
+      .estilo-c:hover .img-container img{
+        transform: scale(1.2);
+      }
+      .estilo-c .img-container .promo{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        font-size: 20px;
+        background: black;
+        padding: 15px;
+        color: white;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+      }
+      .estilo-c .info-container{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+      }
+      .estilo-c .info-container h3{
+        margin: 0;
+      }
+      .estilo-c .info-container h3,
+      .estilo-c .info-container strong,
+      .estilo-c .info-container span{
+        padding: 5px 15px;
+        width: 100%;
+      }
+      .estilo-c .add-cart{
+        margin-top: 2px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 25px;
+      }
+      .estilo-c .add-cart:hover{
+        color: black;
+        background-color: transparent;
+        border: 1px solid black;
+      }
+       /*fin de compras mujer*/
+     
+
+ /*inicio dise;adores*/
+
+ .act{
+	border: 2px solid white;
+	border-radius: 50px;
+	padding: 6px 15px;
+}
+
+.slider{
+    margin-top: 200px;
+	position: relative;
+	width: 1800px;
+	background: white;
+	float: right; 
+}
+.myslide{
+	height: 655px;
+	display: none;
+	overflow: hidden;
+}
+
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 50px;
+	padding: 15px;
+	cursor: pointer;
+	color: white;
+	transition: 0.1s;
+	user-select: none;
+}
+
+.next{
+	right: 0;
+}
+.dotsbox{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 20px;
+	cursor: pointer;
+}
+.dot{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 3px solid white;
+	border-radius: 50%;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+.txt{
+	position: absolute;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 35px;
+	top: 40%;
+	left: 15%;
+	-webkit-animation-name: posi;
+  	-webkit-animation-duration: 2s;
+  	animation-name: posi;
+  	animation-duration: 2s;
+	z-index: 1;
+}
+
+@-webkit-keyframes posi {
+  from {left: 25%;}
+  to {left: 15%;}
+}
+
+
+@keyframes posi {
+  from {left: 25%;}
+  to {left: 15%;}
+}
+
+.txt h4{
+	color: white; /* blue */
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.txt p{
+	font-weight: bold;
+	font-size: 20px;
+}
+/* /3 */
+
+/* 4 */
+.txt img{
+	transform: scale(1.5, 1.5);
+	-webkit-animation-name: zoomin;
+  	-webkit-animation-duration: 40s;
+  	animation-name: zoomin;
+  	animation-duration: 40s;
+}
+@-webkit-keyframes zoomin {
+  from {transform: scale(1, 1);}
+  to {transform: scale(1.5, 1.5);}
+}
+
+
+@keyframes zoomin {
+  from {transform: scale(1, 1);}
+  to {transform: scale(1.5, 1.5);}
+}
+/* /4 */
+
+
+
+/* 5 */
+@media screen and (max-width: 800px){
+	.myslide{
+		height: 500px;
+	}
+	.txt{
+		letter-spacing: 2px;
+		line-height: 25px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-animation-name: posi2;
+		-webkit-animation-duration: 2s;
+		animation-name: posi2;
+		animation-duration: 2s;
+	}
+
+	@-webkit-keyframes posi2 {
+	  from {top: 35%;}
+	  to {top: 50%;}
+	}
+
+
+	@keyframes posi2 {
+	  from {top: 35%;}
+	  to {top: 50%;}
+	}
+
+	.txt h1{
+		font-size: 40px;
+	}
+	.txt p{
+		font-size: 13px;
+	}
+
+}
+@media screen and (max-width: 520px){
+	.txt h1{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.sign{
+		margin-right: 20px;
+	}
+	.sign a{
+		font-size: 12px;
+	}
+}
+        /*fin de dise;adores*/
